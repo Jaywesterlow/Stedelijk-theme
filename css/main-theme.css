@@ -1,3 +1,77 @@
+nav {
+  height: 70px;
+}
+nav li a {
+  font-size: 18px;
+}
+nav .btn.tickets-knop {
+  background-color: #79FA4D;
+}
 
+div.popup-message {
+  background-color: #C5374C;
+}
+div.popup-message p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.divider-py {
+  border: 3px solid #000;
+  opacity: 1;
+  margin: 9px 0;
+}
+
+.divider-pt {
+  border: 3px solid #000;
+  opacity: 1;
+  margin: 9px 0 0 0;
+}
+
+.divider-pb {
+  border: 3px solid #000;
+  opacity: 1;
+  margin: 0 0 9px 0;
+}
+
+div.header-spacing {
+  padding: 0px 50px 0px 50px;
+}
+div.header-spacing .header-container {
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  margin-left: 0;
+  opacity: 1;
+}
+div.header-spacing .header-container:hover {
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  margin-left: 20px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+div.header-spacing h1 {
+  font-size: 150px;
+  margin: 0;
+}
+div.header-spacing h2 {
+  font-size: 60px;
+}
+div.header-spacing i.arrow {
+  padding: 0 0 0 15px;
+}
+
+div.slider-container {
+  border: 0px solid #79FA4D;
+}
+div.slider-container div.foto-slider {
+  background-color: #000;
+  height: 338px;
+}
+
+div .description {
+  font-size: 18px;
+  color: #000;
+}
 
 /*# sourceMappingURL=main-theme.css.map */

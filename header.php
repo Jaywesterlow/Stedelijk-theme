@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> class="overflow-hidden">
-
+<html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <title><?php bloginfo('name'); ?></title>
@@ -16,12 +15,12 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid d-flex flex-row flex-lg-row-reverse">
 
-  <!-- <Searchbar-&-Button> -->
+    <!-- <Searchbar-&-Button> -->
     <div class="d-flex flex-row justify-content-around col-10 col-md-11 col-lg-6">
       <form class="w-75">
         <input class="form-control me-2" type="search" placeholder="Typ om te zoeken in de website" aria-label="Search">
       </form>
-      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn tickets-knop">Koop Tickets</button>
     </div>
     <!-- </Searchbar-&-Button> -->
 
