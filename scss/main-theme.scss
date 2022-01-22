@@ -4,13 +4,17 @@
 @import "mixins";
 
 
+*, ::before, ::after {
+    box-sizing: border-box;
+    // font-family: $base-family; !DISABLES FONTAWESOME
+}
 //Navbar
 nav {
     height: 70px;
 
     li {
         a {
-            font-size: $font-S;
+            font-size: $text-S;
         }
     }
     .btn.tickets-knop {
@@ -25,7 +29,7 @@ div.popup-message {
 
     p {
         color: $primary-1;
-        font-size: $font-S;
+        font-size: $text-S;
     }
 }
 
@@ -67,15 +71,24 @@ div.header-spacing {
     }
 
     h1 {
-        font-size: $font-XL;
+        font-size: $title-L;
         margin: 0;
     }
 
     h2 {
-        font-size: $font-M;
+        font-size: $title-M;
     }
 
-    i.arrow {
+    h3 {
+        font-size: $title-S;
+    }
+
+    h4 {
+        font-size: $title-XS;
+        font-weight: $weight-heavy;
+    }
+
+    i.arrow-right {
         padding: 0 0 0 15px;
     }
 }
@@ -87,20 +100,56 @@ div.slider-container {
         background-color: $primary-2;
         height: 338px;
     }
-    
+}
+
+// Program Explained
+
+div.programExplenation {
+
+}
+
+img.artwork-1 {
+    width: 80%;
 }
 
 div {
     .description {
-        font-size: $font-S;
+        font-size: $text-S;
+        color: $primary-2;
+    }
+
+    .finePrint {
+        font-size: $text-XS;
+    }
+}
+
+ul.paragraphList {
+    li {
+        font-size: $text-S;
         color: $primary-2;
     }
 }
 
-@media only screen and (max-width: 1260px) {
-    body {
-      
-    }
-  }
+//Programs
 
-  
+  h1.program {
+    font-size: $title-L;
+}
+
+i.arrow-left {
+    padding: 0 15px 0 0;
+    transform: rotate(180deg);
+}
+
+.order-hover {
+    @include transition;
+    margin-left: 0;
+    opacity: 1;
+}
+
+.order-hover:hover {
+    @include transition;
+    margin-left: 20px;
+    opacity: 0.7;
+    cursor: pointer;
+}
