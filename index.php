@@ -146,10 +146,40 @@
         <img class="artwork-1" src="<?php echo get_template_directory_uri(); ?>/images/artwork-guide.png" />
       </div>
     </div>
+
+    <div class="d-flex flex-column  flex-xl-row-reverse align-items-center align-items-xl-start justify-content-xl-center py-5">
+      <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-6">
+        <h3>UITGEBREIDE LUNCH</h3>
+        <p class="description col-12">
+        Op het midden van de dag krijgt u een uitgebreide de lunch met verschillende keuzes van onze menu kaart. 
+        Wij bieden ook een vegetarisch en halal menu aan. Ook vermelden wij op onze menu kaart de ingrediënten 
+        zodat u rekening kan houden met mogelijke allergieën. Als u vragen heeft over het menu kan u altijd een 
+        ober aanspreken om u van dienst te zijn.
+        </p>
+      </div>
+      <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-3">
+        <img class="artwork-1" src="<?php echo get_template_directory_uri(); ?>/images/prog1-artwork1.png" />
+      </div>
+    </div>
+
+    <div class="d-flex flex-column  flex-xl-row-reverse align-items-center align-items-xl-start justify-content-xl-center py-5">
+      <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-6">
+        <h3>BOUW WORKSHOP</h3>
+        <p class="description col-12">
+        Tijdens deze bouw workshop maakt u gebruik van de foto’s van de tour.
+        Nu gaat u zelf kunst maken met de verschillende soorten materialen en gereedschappen die wij voor u geregeld hebben.
+        Daarbij komt nog dat er verschillende materialen die wij gebruiken gerecycled zijn. 
+        Zo kan u dus zeker een heel mooi kunstwerk maken en heeft u genoeg keuze aan materialen om mee te werken. 
+        </p>
+      </div>
+      <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-3">
+        <img class="artwork-1" src="<?php echo get_template_directory_uri(); ?>/images/prog1-artwork2.png" />
+      </div>
+    </div>
   </div>
 </div>
 
-
+<hr class="divider-py mt-4">
 
 <!-- </ body> -->
 

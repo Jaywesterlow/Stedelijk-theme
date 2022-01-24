@@ -6,7 +6,7 @@ nav {
   height: 70px;
 }
 nav li a {
-  font-size: 12px;
+  font-size: 18px;
 }
 nav .btn.tickets-knop {
   background-color: #79FA4D;
@@ -17,7 +17,7 @@ div.popup-message {
 }
 div.popup-message p {
   color: #fff;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .divider-py {
@@ -85,15 +85,15 @@ img.artwork-1 {
 }
 
 div .description {
-  font-size: 12px;
+  font-size: 18px;
   color: #000;
 }
 div .finePrint {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 ul.paragraphList li {
-  font-size: 12px;
+  font-size: 18px;
   color: #000;
 }
 
