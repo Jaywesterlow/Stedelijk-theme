@@ -1,8 +1,12 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
 nav {
   height: 70px;
 }
 nav li a {
-  font-size: 18px;
+  font-size: 12px;
 }
 nav .btn.tickets-knop {
   background-color: #79FA4D;
@@ -13,7 +17,7 @@ div.popup-message {
 }
 div.popup-message p {
   color: #fff;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .divider-py {
@@ -55,9 +59,16 @@ div.header-spacing h1 {
   margin: 0;
 }
 div.header-spacing h2 {
+  font-size: 90px;
+}
+div.header-spacing h3 {
   font-size: 60px;
 }
-div.header-spacing i.arrow {
+div.header-spacing h4 {
+  font-size: 34px;
+  font-weight: 700;
+}
+div.header-spacing i.arrow-right {
   padding: 0 0 0 15px;
 }
 
@@ -69,9 +80,45 @@ div.slider-container div.foto-slider {
   height: 338px;
 }
 
+img.artwork-1 {
+  width: 80%;
+}
+
 div .description {
-  font-size: 18px;
+  font-size: 12px;
   color: #000;
+}
+div .finePrint {
+  font-size: 8px;
+}
+
+ul.paragraphList li {
+  font-size: 12px;
+  color: #000;
+}
+
+h1.program {
+  font-size: 150px;
+}
+
+i.arrow-left {
+  padding: 0 15px 0 0;
+  transform: rotate(180deg);
+}
+
+.order-hover {
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  margin-left: 0;
+  opacity: 1;
+}
+
+.order-hover:hover {
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  margin-left: 20px;
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main-theme.css.map */
