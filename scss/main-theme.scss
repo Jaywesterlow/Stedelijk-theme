@@ -54,16 +54,16 @@ div.popup-message {
 
 //Workshop & Programs
 
-div.header-spacing {
+div.content-spacing {
     padding: 0px 50px 0px 50px;
 
-    .header-container {
+    .link-container {
         @include transition;
         margin-left: 0;
         opacity: 1;
     }
 
-    .header-container:hover {
+    .link-container:hover {
         @include transition;
         margin-left: 20px;
         opacity: 0.7;
@@ -104,10 +104,6 @@ div.slider-container {
 
 // Program Explained
 
-div.programExplenation {
-
-}
-
 img.artwork-1 {
     width: 80%;
 }
@@ -132,7 +128,7 @@ ul.paragraphList {
 
 //Programs
 
-  h1.program {
+  h2.program {
     font-size: $title-L;
 }
 
