@@ -6,9 +6,11 @@
 
 *, ::before, ::after {
     box-sizing: border-box;
-    // font-family: $base-family; !DISABLES FONTAWESOME
 }
+
+
 //Navbar
+
 nav {
     height: 70px;
 
@@ -21,6 +23,7 @@ nav {
         background-color: $secondary-2;
     }
 }
+
 
 // Covid-19 popup message
 
@@ -71,26 +74,30 @@ div.content-spacing {
     }
 
     h1 {
-        font-size: $title-L;
+        font-size: 9em;
         margin: 0;
     }
 
     h2 {
-        font-size: $title-M;
+        font-size: 6em;
     }
 
     h3 {
-        font-size: $title-S;
+        font-size: 4em;
     }
 
     h4 {
-        font-size: $title-XS;
-        font-weight: $weight-heavy;
+        font-size: 2em;
+        font-weight: 900;
     }
 
     i.arrow-right {
         padding: 0 0 0 15px;
     }
+}
+
+.link-styling:hover {
+    color: #000;
 }
 
 div.slider-container {
@@ -126,10 +133,11 @@ ul.paragraphList {
     }
 }
 
+
 //Programs
 
   h2.program {
-    font-size: $title-L;
+    font-size: 9em;
 }
 
 i.arrow-left {
@@ -149,3 +157,47 @@ i.arrow-left {
     opacity: 0.7;
     cursor: pointer;
 }
+
+
+// Footer
+
+.stedelijk-logo {
+    width: 50%;
+}
+
+.gemeente-logo {
+    width: 40%;
+}
+
+.loterij-logo {
+    width: 40%;
+}
+
+.footer-title {
+    color: $primary-1;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.footer-text {
+    color: $primary-1;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+button.sign-up-btn {
+    border-radius: 0%;
+    font-size: 22px;
+    border: 2px solid $primary-1;
+}
+
+i.social-links {
+    color: $primary-1;
+}
+
+.copyright {
+    color: $primary-1;
+    font-size: $text-S;
+    font-weight: 200;
+}
+

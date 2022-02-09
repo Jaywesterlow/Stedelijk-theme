@@ -1,0 +1,59 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  padding: 0px 0px 0px 50px;
+}
+
+
+.space {
+  /* padding: 0px 0px 0px 50px; */
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.date {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.calander {
+  width: 1000px;
+  height: 400px;
+  border: #fff 5px solid;
+}
+
+.program {
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.small-t {
+  font-size: 20px;
+}
+
+.container {
+  width: 1000px;
+  height: 400px;
+  border: #fff 5px solid;
+  margin-top: 100px;
+}
+
+input {
+  border: none;
+  border-bottom: 4px solid #fff;
+  display: block;
+  width: 950px;
+  height: 43px;
+  background: 0 0;
+  color: #fff;
+  justify-content: center;
+
+}
+ 
+ 

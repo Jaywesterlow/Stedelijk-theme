@@ -38,38 +38,42 @@ div.popup-message p {
   margin: 0 0 9px 0;
 }
 
-div.header-spacing {
+div.content-spacing {
   padding: 0px 50px 0px 50px;
 }
-div.header-spacing .header-container {
+div.content-spacing .link-container {
   transition-duration: 1s;
   transition-timing-function: ease-out;
   margin-left: 0;
   opacity: 1;
 }
-div.header-spacing .header-container:hover {
+div.content-spacing .link-container:hover {
   transition-duration: 1s;
   transition-timing-function: ease-out;
   margin-left: 20px;
   opacity: 0.7;
   cursor: pointer;
 }
-div.header-spacing h1 {
-  font-size: 150px;
+div.content-spacing h1 {
+  font-size: 9em;
   margin: 0;
 }
-div.header-spacing h2 {
-  font-size: 90px;
+div.content-spacing h2 {
+  font-size: 6em;
 }
-div.header-spacing h3 {
-  font-size: 60px;
+div.content-spacing h3 {
+  font-size: 4em;
 }
-div.header-spacing h4 {
-  font-size: 34px;
-  font-weight: 700;
+div.content-spacing h4 {
+  font-size: 2em;
+  font-weight: 900;
 }
-div.header-spacing i.arrow-right {
+div.content-spacing i.arrow-right {
   padding: 0 0 0 15px;
+}
+
+.link-styling:hover {
+  color: #000;
 }
 
 div.slider-container {
@@ -97,8 +101,8 @@ ul.paragraphList li {
   color: #000;
 }
 
-h1.program {
-  font-size: 150px;
+h2.program {
+  font-size: 9em;
 }
 
 i.arrow-left {
@@ -119,6 +123,46 @@ i.arrow-left {
   margin-left: 20px;
   opacity: 0.7;
   cursor: pointer;
+}
+
+.stedelijk-logo {
+  width: 50%;
+}
+
+.gemeente-logo {
+  width: 40%;
+}
+
+.loterij-logo {
+  width: 40%;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+button.sign-up-btn {
+  border-radius: 0%;
+  font-size: 22px;
+  border: 2px solid #fff;
+}
+
+i.social-links {
+  color: #fff;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=main-theme.css.map */
