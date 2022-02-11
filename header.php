@@ -11,6 +11,7 @@
 </head>
 <body>
 
+
 <!-- <Navbar> -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid d-flex flex-row flex-lg-row-reverse">
@@ -29,23 +30,12 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse col-2 col-md-1 col-lg-6" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 d-flex flex-lg-row justify-content-lg-around w-100">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Bezoek</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Tentoonstelling</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
+      <?php wp_nav_menu(array('theme_location' => 'main-menu', 'menu_class' => 'header my-2 my-lg-0 d-flex flex-column flex-lg-row justify-content-around justify-content-around align-items-start align-items-lg-center', 'items_wrap' => '<nav id="sub-menu-2" class="%2$s">%3$s</nav>')); ?>
     </div>
     <!-- </Menu-items> -->
 
   </div>
 </nav>
 <!-- </Navbar> -->
+
+
