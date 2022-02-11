@@ -16,30 +16,18 @@
 
 <hr class="divider-py">
 
-<div class="w-100 d-flex align-items-center flex-row content-spacing">
-  <div class="link-container d-flex align-items-center flex-row">
-  <a href="#programma-1" class="link-styling"><h3 class="link-styling">PROGRAMMA 1</h3></a>
-    <i class="fas fa-long-arrow-alt-right fa-3x arrow-right"></i>
-  </div>
-</div>
+<?php $programma_1_link = get_post(54); ?>
+<?php echo $programma_1_link->post_content; ?>
 
 <hr class="divider-py">
 
-<div class="w-100 d-flex align-items-center flex-row content-spacing">
-  <div class="link-container d-flex align-items-center flex-row">
-    <a href="#programma-2" class="link-styling"><h3 class="link-styling">PROGRAMMA 2</h3></a>
-    <i class="fas fa-long-arrow-alt-right fa-3x arrow-right"></i>
-  </div>
-</div>
+<?php $programma_2_link = get_post(57); ?>
+<?php echo $programma_2_link->post_content; ?>
 
 <hr class="divider-py">
 
-<div class="w-100 d-flex align-items-center flex-row content-spacing">
-  <div class="link-container d-flex align-items-center flex-row">
-    <a href="#programma-3" class="link-styling"><h3 class="link-styling">PROGRAMMA 3</h3></a>
-    <i class="fas fa-long-arrow-alt-right fa-3x arrow-right"></i>
-  </div>
-</div>
+<?php $programma_3_link = get_post(59); ?>
+<?php echo $programma_3_link->post_content; ?>
 
 <hr class="divider-pt">
 
@@ -128,15 +116,11 @@
       Dit kost €100 per persoon en alles word geregeld door ons. <br>
       U hoeft dus niks extra te betalen of mee te nemen.
     </p>
+    
     <div class="d-flex flex-column  flex-xl-row-reverse align-items-center align-items-xl-start justify-content-xl-center py-5">
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-6">
-        <h3>RONDLEIDING MET GIDS</h3>
-        <p class="description col-12">
-          U begint met een tour door het museum met een gids die u alles over kunst en kunstenaars verteld.
-          Tijdens dit onderdeel kunt u foto’s maken van de kunst in het museum.
-          Dit kan handig zijn voor het laatste onderdeel.
-          Dus vergeet uw telefoon of camera niet zodat u foto’s kan maken van de kunst in het museum en kan gebruiken voor de workshop!
-        </p>
+        <?php $rondleiding_met_gids = get_post(65); ?>
+        <?php echo $rondleiding_met_gids->post_content; ?>
       </div>
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-3">
         <img class="artwork-1" src="<?php echo get_template_directory_uri(); ?>/images/artwork-guide.png" />
@@ -145,13 +129,8 @@
 
     <div class="d-flex flex-column  flex-xl-row-reverse align-items-center align-items-xl-start justify-content-xl-center py-5">
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-6">
-        <h3>UITGEBREIDE LUNCH</h3>
-        <p class="description col-12">
-        Op het midden van de dag krijgt u een uitgebreide de lunch met verschillende keuzes van onze menu kaart. 
-        Wij bieden ook een vegetarisch en halal menu aan. Ook vermelden wij op onze menu kaart de ingrediënten 
-        zodat u rekening kan houden met mogelijke allergieën. Als u vragen heeft over het menu kan u altijd een 
-        ober aanspreken om u van dienst te zijn.
-        </p>
+        <?php $uitgebreide_lunch = get_post(67); ?>
+        <?php echo $uitgebreide_lunch->post_content; ?>
       </div>
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-3">
         <img class="artwork-1" src="<?php echo get_template_directory_uri(); ?>/images/prog1-artwork1.png" />
@@ -160,13 +139,8 @@
 
     <div class="d-flex flex-column  flex-xl-row-reverse align-items-center align-items-xl-start justify-content-xl-center py-5">
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-6">
-        <h3>BOUW WORKSHOP</h3>
-        <p class="description col-12">
-        Tijdens deze bouw workshop maakt u gebruik van de foto’s van de tour.
-        Nu gaat u zelf kunst maken met de verschillende soorten materialen en gereedschappen die wij voor u geregeld hebben.
-        Daarbij komt nog dat er verschillende materialen die wij gebruiken gerecycled zijn. 
-        Zo kan u dus zeker een heel mooi kunstwerk maken en heeft u genoeg keuze aan materialen om mee te werken. 
-        </p>
+        <?php $bouw_workshop = get_post(69); ?>
+        <?php echo $bouw_workshop->post_content; ?>
       </div>
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-3">
         <img class="artwork-1" src="<?php echo get_template_directory_uri(); ?>/images/prog1-artwork2.png" />
@@ -208,13 +182,8 @@
     </p>
     <div class="d-flex flex-column  flex-xl-row-reverse align-items-center align-items-xl-start justify-content-xl-center py-5">
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-6">
-        <h3>RONDLEIDING MET GIDS</h3>
-        <p class="description col-12">
-          U begint met een tour door het museum met een gids die u alles over kunst en kunstenaars verteld.
-          Tijdens dit onderdeel kunt u foto’s maken van de kunst in het museum.
-          Dit kan handig zijn voor het laatste onderdeel.
-          Dus vergeet uw telefoon of camera niet zodat u foto’s kan maken van de kunst in het museum en kan gebruiken voor de workshop!
-        </p>
+        <?php $rondleiding_met_gids = get_post(65); ?>
+        <?php echo $rondleiding_met_gids->post_content; ?>
       </div>
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-3">
         <img class="artwork-1" src="<?php echo get_template_directory_uri(); ?>/images/artwork-guide.png" />
@@ -223,13 +192,8 @@
 
     <div class="d-flex flex-column  flex-xl-row-reverse align-items-center align-items-xl-start justify-content-xl-center py-5">
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-6">
-        <h3>UITGEBREIDE LUNCH</h3>
-        <p class="description col-12">
-        Op het midden van de dag krijgt u een uitgebreide de lunch met verschillende keuzes van onze menu kaart. 
-        Wij bieden ook een vegetarisch en halal menu aan. Ook vermelden wij op onze menu kaart de ingrediënten 
-        zodat u rekening kan houden met mogelijke allergieën. Als u vragen heeft over het menu kan u altijd een 
-        ober aanspreken om u van dienst te zijn.
-        </p>
+        <?php $uitgebreide_lunch = get_post(67); ?>
+        <?php echo $uitgebreide_lunch->post_content; ?>
       </div>
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-3">
         <img class="artwork-1" src="<?php echo get_template_directory_uri(); ?>/images/prog1-artwork1.png" />
@@ -272,13 +236,8 @@
 
     <div class="d-flex flex-column  flex-xl-row-reverse align-items-center align-items-xl-start justify-content-xl-center py-5">
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-6">
-        <h3>UITGEBREIDE LUNCH</h3>
-        <p class="description col-12">
-        Op het midden van de dag krijgt u een uitgebreide de lunch met verschillende keuzes van onze menu kaart. 
-        Wij bieden ook een vegetarisch en halal menu aan. Ook vermelden wij op onze menu kaart de ingrediënten 
-        zodat u rekening kan houden met mogelijke allergieën. Als u vragen heeft over het menu kan u altijd een 
-        ober aanspreken om u van dienst te zijn.
-        </p>
+        <?php $uitgebreide_lunch = get_post(67); ?>
+        <?php echo $uitgebreide_lunch->post_content; ?>
       </div>
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-3">
         <img class="artwork-1" src="<?php echo get_template_directory_uri(); ?>/images/prog1-artwork1.png" />
@@ -287,13 +246,8 @@
 
     <div class="d-flex flex-column  flex-xl-row-reverse align-items-center align-items-xl-start justify-content-xl-center py-5">
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-6">
-        <h3>BOUW WORKSHOP</h3>
-        <p class="description col-12">
-        Tijdens deze bouw workshop maakt u gebruik van de foto’s van de tour.
-        Nu gaat u zelf kunst maken met de verschillende soorten materialen en gereedschappen die wij voor u geregeld hebben.
-        Daarbij komt nog dat er verschillende materialen die wij gebruiken gerecycled zijn. 
-        Zo kan u dus zeker een heel mooi kunstwerk maken en heeft u genoeg keuze aan materialen om mee te werken. 
-        </p>
+        <?php $bouw_workshop = get_post(69); ?>
+        <?php echo $bouw_workshop->post_content; ?>
       </div>
       <div class="d-flex flex-column align-items-center align-items-xl-start col-10 col-xl-3">
         <img class="artwork-1" src="<?php echo get_template_directory_uri(); ?>/images/prog1-artwork2.png" />
